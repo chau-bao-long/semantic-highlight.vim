@@ -5,6 +5,8 @@ let s:blacklist = [
   \'yaml',
   \'floaterm',
   \'vim',
+  \'git',
+  \'coc-explorer',
   \]
 
 function! fileblacklist#GetBlacklist()
